@@ -18,7 +18,7 @@ app.use(cors());
 app.use("/students", studentRoutes);
 
 //database connection url
-const CONNECTION_URL = "mongodb+srv://sonjack:freepizza2@cluster0.ydr00.mongodb.net/First-Mern?retryWrites=true&w=majority";
+const CONNECTION_URL = "mongodb+srv://username:<password>@cluster0.ydr00.mongodb.net/First-Mern?retryWrites=true&w=majority";
 //assign PORT variables to port environment if set or port 5000
 const PORT = process.env.PORT || 5000;
 
